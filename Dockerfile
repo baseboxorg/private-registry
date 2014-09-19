@@ -1,5 +1,5 @@
-from registry
-maintainer BuiltDock Project "http://www.builtdock.com"
+from registry:latest
+maintainer BuiltDock Project <development@builtdock.com>
 run apt-get update
 run apt-get -y upgrade
 run apt-get install -y apache2-utils supervisor python-setuptools make g++ libpcre3-dev wget libssl-dev libreadline-dev perl redis-server
